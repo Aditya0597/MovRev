@@ -1,0 +1,42 @@
+/*Author: Karan Bhaveshbhai Kharecha*/
+.blog {
+    border: 6px solid #2c3e50;
+    background:rgb(35, 43, 66);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    color: black;
+}
+
+.blog-new {
+    border: 3px solid #1B5E20;
+}
+
+.blog-delete {
+    font-size: 0.5em;
+    background: transparent;
+    border: 0;
+}
+
+.blog-title:hover {
+    border: 1px solid #03EAC8;
+}
+
+.blog-title {
+    font-size: 0.25em;
+    white-space: normal;
+}
+
+input {
+    font-weight: bold;
+}
+
+.bg-new-blog {
+    line-height: 1em;
+    background-color: #EEEEEE;
+}

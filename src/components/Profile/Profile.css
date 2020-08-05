@@ -1,0 +1,224 @@
+.profileseparator {
+  height: 1px;
+  background-color: white;
+}
+   /* Student Profile Styles */
+  .student-profile-card-container {
+    padding: 2rem 1rem 2rem 0rem;
+    border-radius: 8px;
+    border: 1px solid #EFEEFD;
+    ;
+    box-shadow: 0px 2px 2px -2px rgba(0,0,0,.2);
+    background-color: #fff;
+  }
+
+  .account-links-container {
+    display: flex;
+    border: 1px solid #090F25;
+    border-radius: 4px;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  button.tab-link {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    background-color: transparent;
+  }
+
+  button.tab-link:hover {
+    cursor: pointer;
+    color: #3722d3;
+    transition: 0.15s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    .account-links-container {
+        width: 100%;
+    }
+  }
+
+  button.active {
+    background-color: #090F25;
+    color: #f0f2f7;
+  }
+
+  .tabs-container {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .tabs-container {
+        padding: 2rem 0rem !important;
+    }
+  }
+
+  .tab-content {
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
+  }
+
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+  .tab-content .fa-star {
+    color: #3722d3;
+    margin-top: -3px;
+  }
+
+  fieldset {
+    /*font-size: 0.95rem;*/
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  legend {
+    font-weight: 600;
+  }
+
+  .tab-content p {
+    margin-bottom: 1rem;
+  }
+
+  .tab-content label {
+    font-weight: 400;
+  }
+
+  .form-controls-group-outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-controls-group-inner {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+
+  .last-form-controls-group-inner {
+    margin-bottom: 0rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .form-controls-group-inner {
+        width: 100%;
+    }
+  }
+  .form-control{
+    width: 90%;
+  }
+  .form-controls-group-inner label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-controls-group-inner input {
+    font-family: inherit;
+    font-size: inherit;
+    color: #576366;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border: 2px solid #EFEEFD;
+    border-radius: 4px;
+    height: 40px;
+    width: 50%;
+  }
+
+  .form-controls-group-inner textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: #576366;
+    padding: 0.5rem 0.2rem;
+    border: 2px solid #EFEEFD;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+  }
+
+.progress-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+
+  #progress-tab .progress-list {
+    list-style-type: none;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .progress-list > li {
+    display: flex;
+    align-items: center;
+  }
+
+  .progress-list .project-name {
+    width: 400px;
+  }
+
+  .progress-list .progress-value {
+    padding: 0.25rem;
+  }
+
+  .flash-banner {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+  }
+
+  .flash-banner i {
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+  }
+
+  .flash-banner i:hover {
+    cursor: pointer;
+  }
+
+  .visible {
+    display: initial;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .card-custom{
+    text-align: left !important;
+  }
+
+  .title-custom{
+    font-weight: 600;
+    text-align: center !important;
+  }
+
+.description-custom{
+  font-weight: 500;
+  text-align: center !important;
+}
+
+.card-description-custom{
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+}

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+.form {
+  margin: 0rem 0rem 3rem 0rem;
+  border: 1px solid #333b3f;
+  border-radius: 5px;
+  width: 50%;
+}
+.wrapRev{
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+}
+.addareview {
+  padding-top: 3rem;
+  text-align: left;
+  color: white;
+  margin: 1em 0 0.5em 0;
+  font-family: "Ultra", sans-serif;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+.form:hover {
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.heading {
+  text-align: left !important;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  
+  padding-top: 2rem;
+}
+.movieimage{
+  width: 10rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+.movietitle{
+  margin: 1rem;
+  font-size: x-large;
+}
+.movieinfo{
+  text-align: left;
+}
+.title1,
+.rating,
+.desc {
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  text-align: left !important;
+}
+.instruction {
+  text-align: left !important;
+  font-size: x-small !important;
+  padding-left: 1.5rem;
+}
+/* .submitBut {
+  float: center;
+  margin-bottom: 2rem;
+} */
+@media only screen and (max-width: 300px) {
+  .form {
+    width: 100%;
+  }
+  .reviewtitle{
+    margin: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #131313;
+    letter-spacing: 0.1rem; 
+  }
+}
+@media only screen and (max-width: 1200px){
+  .reviewtitle{
+  margin: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #131313;
+  letter-spacing: 0.1rem; 
+}}
+#demotext {
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+  }

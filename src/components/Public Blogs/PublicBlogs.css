@@ -1,0 +1,29 @@
+/*Author: Karan Bhaveshbhai Kharecha*/
+.blog {
+    border: 6px solid #2c3e50;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(51, 117, 144, 1) 100%);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-title:hover {
+    background-color: #394247;
+    border: 1px solid #394247;
+    transform: scale(1.15);
+    transition: 0.7s ease-in-out;
+}
+
+.blog-title {
+    font-size: 0.25em;
+    white-space: normal;
+}
+
+.blog-public {
+    background-color: #000000;
+    border-radius: 25px;
+}

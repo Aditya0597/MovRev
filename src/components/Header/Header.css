@@ -1,0 +1,24 @@
+.divider{
+    border-right: 1px solid gray;
+    padding-right: 1rem !important;
+}
+.searchbtn{
+    padding-left: 1rem !important;
+}
+.brand-name{
+    position: relative !important;
+}
+.dropdown-item{
+  color:white !important;
+  background-color: #232B42 !important;
+}
+.dropdown-menu{
+  background-color: #232B42 !important;
+}
+@media only screen and (max-width: 990px) {
+  .divider{
+    border-right: 0px solid white;
+    padding-right: 0rem !important;
+  }
+
+}

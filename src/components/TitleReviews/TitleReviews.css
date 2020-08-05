@@ -1,0 +1,45 @@
+.titlereviews-wrapper{
+    width: 100%;
+}
+.revjumbotron{
+    background-image: linear-gradient(to top, #000000, #393939, #727272, #b1b1b1, #f4f4f4);
+    color: white;
+}
+.MuiToolbar-root{
+    background-color: #1E1F2F !important;
+    color: white !important;
+}
+.MuiTypography-root{
+    color: white !important;
+}
+.MuiButtonBase-root{
+    color: black !important;
+}
+.MuiTableCell-root{
+    color: black !important;
+}
+.MuiSvgIcon-root{
+    color: #57BDD9 !important;
+}
+.MuiTypography-root{
+    color: #57BDD9 !important;
+}
+.MuiTableSortLabel-root{
+    color: #57BDD9 !important;
+}
+.MuiTableSortLabel-root{
+    color: #57BDD9 !important;
+}
+.MuiTableSortLabel-active{
+    color:  #57BDD9 !important;
+}
+
+.MuiTableSortLabel-icon{
+    color:  #57BDD9 !important;
+}
+.MuiTableSortLabel-iconDirectionDesc{
+    color: white !important;
+}
+.MuiTableSortLabel-iconDirectionAsc{
+
+}

@@ -1,0 +1,70 @@
+{
+  "name": "assignment_2_aws",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material/floating-label": "^7.0.0",
+    "@okta/okta-signin-widget": "^2.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "draft-js": "^0.11.6",
+    "draftjs-to-html": "^0.9.1",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.1.4",
+    "jwt-decode": "^2.2.0",
+    "local-storage": "^2.0.0",
+    "material-table": "^1.59.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-autosuggest": "^10.0.2",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-files": "^2.4.8",
+    "react-fontawesome": "^1.7.1",
+    "react-notification-alert": "0.0.12",
+    "react-quill": "^1.3.5",
+    "react-responsive-modal": "^5.0.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-share": "^4.2.1",
+    "reactstrap": "^8.5.1",
+    "serve": "^11.3.2",
+    "shards-react": "^1.0.3",
+    "yup": "^0.29.1"
+  },
+  "engines": {
+    "node": "12.16.3",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

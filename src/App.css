@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  padding-top: 55px !important;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1300px) {
+  body {
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  body {
+    padding-top: 50px;
+  }
+}

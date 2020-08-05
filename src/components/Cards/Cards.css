@@ -1,0 +1,88 @@
+.card {
+  width: 20rem;
+}
+.card:hover {
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding-bottom: 2rem !important;
+  padding-top: 0rem !important;
+}
+.overflow {
+  overflow: hidden;
+}
+.card-text {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+  margin: 0rem;
+}
+.card-text-a {
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+.btn-toolbar {
+  justify-content: space-evenly;
+}
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.btn-block {
+  justify-content: space-evenly;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 17rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+    padding: 0rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .card {
+    width: 12rem;
+  }
+  .card-body {
+    padding: 0rem 0 !important;
+  }
+  .btn-toolbar {
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+  }
+  .card-text {
+    font-size: 0.7rem;
+    padding: 0.4rem 1.9rem;
+  }
+  .card-title {
+    font-size: 1.2rem;
+    padding: 0.4rem 1.9rem;
+  }
+  .card-text-a {
+    font-size: 0.7rem;
+    padding: 0.4rem 1.9rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .card {
+    width: 20rem;
+
+  }
+  
+  .card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+}

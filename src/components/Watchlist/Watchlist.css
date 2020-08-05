@@ -1,0 +1,49 @@
+#center {
+  align-items: left;
+  justify-content: left;
+  display: flex;
+}
+.watchlist-wrapper{
+  width: 100%;
+}
+.jumbowatchlist{
+  margin-top: 2rem;
+  font-weight: lighter;
+  font-size: 3.5rem;
+}
+.lead-watchlist{
+  font-size: 1rem;
+}
+.ListItem-overlay{
+  padding:0.5rem 0.2rem;
+  background-color: black;
+  opacity: 0.7;
+  color:#fff;
+  width:100%;
+}
+  
+.ListItem-title{
+  font-size:1em;
+  font-weight:700;
+}
+
+.ListItem-subcontent{
+  font-size:0.7em;
+  font-weight:400;
+  text-transform: capitalize;
+}
+
+@media(min-width:400px){
+  .WatchList-ListItem .card-footer-button.WatchList-Check, .WatchList-ListItem .card-footer-button.WatchList-Reset{
+    width:80%;
+    flex:none;
+  }
+  .WatchList-ListItem .card-footer-button-text{
+    display:inline;
+  }
+}
+.errorMsg{
+  margin-top: 10rem; 
+  color: white; 
+  font-size: 3rem;  
+}
